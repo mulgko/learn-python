@@ -46,9 +46,9 @@
 
 # 🧾 primitive data type 
 
-# - Intergers
-#     profile_number = 2030
-#     print(profile_number)
+#- Intergers
+profile_number = 2030
+# print(profile_number)
 
 # - Floats
 #     score = float(100.0)
@@ -58,10 +58,25 @@
 #     is_active = True 
 
 # - String(str)
-#     teacher_name = str("John Doe")
-#     course_name = str("Python") 
-#     lecture_name = ""
-#     Cisca
-#     Oladipo
-#     """
-#     print(name)
+
+teacher_name = "John Doe"
+# course_name = 'Python'
+# lecture_name = """
+# Cisca
+# Oladipo
+# """
+# print(lecture_name)
+
+# ---------------------------------------------------------------
+
+
+# 📃 String subscript  
+# print(teacher_name[3]) # 특정한 위치에 있는 문자를 찾아내는 것. 
+
+# print(teacher_name[len(teacher_name)-1])
+
+
+# check object type
+print(type(profile_number))
+
+print(type(teacher_name))
