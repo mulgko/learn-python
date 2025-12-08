@@ -159,8 +159,14 @@ age = 30
 
 
 # 딕셔너리
-person = { 'name': 'Kim', 'age' : 17}
-print("Hello, {name}. i am {age}.".format(name=person['name'], age=person['age']))
+# person = { 'name': 'Kim', 'age' : 17}
+# print("Hello, {name}. i am {age}.".format(name=person['name'], age=person['age']))
 
-print("Hello, {name}. I am{age}.".format(**person))
+# print("Hello, {name}. I am{age}.".format(**person))
+
+
+# Python 3.6
+print(f"Hello, {name}. I am {age}.")
+print(F"Hello, {name}. I am {age}.")
+print(f"{name.lower()} is cool.")
 
