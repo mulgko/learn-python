@@ -249,18 +249,18 @@
 
 # random module
 
-import random
+# import random
 
-print(random.randint(1, 100))
+# print(random.randint(1, 100))
 
-import kim_module
+# import kim_module
 
 # print(kim_module.MY_LOCATION)
-# print(kim_module.MY_NATURAL_CONTRY)
+#  print(kim_module.MY_NATURAL_CONTRY)
 
-random_float = random.random()
-print(random_float)
-# random random은 float을 리턴한다. 0~1 
+# random_float = random.random()
+# print(random_float)
+#  random random은 float을 리턴한다. 0~1 
 
-# how to generate 0 - 10???
+#  how to generate 0 - 10???
 
